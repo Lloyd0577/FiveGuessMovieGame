@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lloydapp.fiveguessmovie.MainActivity" >
+
+    <item
+        android:id="@+id/share_menu"
+        android:icon="@drawable/share1"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"/>
+
+</menu>

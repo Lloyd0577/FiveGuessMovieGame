@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/index_background">
+    
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"/>
+	         <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"
+	            android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+        
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/pass_alllevel_view"/>
+	     <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"/>
+	         <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"
+	            android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+        
+	     <Button 
+	         android:id="@+id/replay_button"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/first_activity_button_icon"
+	         android:text="重玩"
+	         android:textSize="30sp"
+	         android:textColor="@color/white"/>
+	       <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"/>
+	         <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"
+	            android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+	     <Button 
+	         android:id="@+id/pass_all_share_button"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/first_activity_button_icon"
+	         android:text="炫耀"
+	         android:textSize="30sp"
+	         android:textColor="@color/white"/>
+	        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"/>
+	         <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/shu"
+	            android:layout_marginLeft="80dp"/>
+        </LinearLayout>
+	     <Button 
+	         android:id="@+id/pass_all_exit_button"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/first_activity_button_icon"
+	         android:text="退出"
+	         android:textSize="30sp"
+	         android:textColor="@color/white"/>
+    </LinearLayout>
+    
+    
+    <include layout="@layout/share_layout"/>
+
+</LinearLayout>

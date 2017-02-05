@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">五秒猜电影</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">分享即得30枚红心</string>
+	<string name="start_button">开始游戏</string>
+	<string name="level_button">关卡</string>
+	
+</resources>

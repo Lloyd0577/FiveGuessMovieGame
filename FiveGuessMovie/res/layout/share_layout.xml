@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_lin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/index_bar"
+    android:visibility="invisible"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+    
+    <ImageButton
+        android:id="@+id/weixin_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/weixin_pengyouquan"/>
+
+    <ImageButton
+        android:id="@+id/weixin_haoyou_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/weixin_haoyou"/>
+    
+    <ImageButton 
+        android:id="@+id/xinlan_share_image_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/xllog"/>
+</LinearLayout>

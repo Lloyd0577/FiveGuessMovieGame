@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buytip_bg" 
+    android:orientation="vertical">
+	<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="top|center"
+        android:text="提示"
+        android:layout_marginTop="0dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+	 <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/game_line"/>
+    <TextView
+        android:id="@+id/tip_msg_text"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="333"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+      
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+       android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" >
+
+        <ImageButton
+            android:id="@+id/no_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            
+            android:background="@drawable/dialog_no_button_icon"
+          />
+
+        <ImageButton
+            android:id="@+id/yes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:layout_marginLeft="100dp"
+            android:background="@drawable/dialog_yes_button_icon"
+           />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/top_bar"
+    android:layout_marginLeft="2dp"
+     android:layout_marginTop="2dp"
+      android:layout_marginRight="2dp"
+    android:background="@drawable/index_bar">
+    <Button 
+        android:id="@+id/btn_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_button_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+
+     <FrameLayout
+         	android:id="@+id/level_fram"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true" >
+        
+        <TextView
+	        android:id="@+id/stage_level"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:layout_gravity="center"
+	       	android:gravity="center"
+	       	android:textSize="30sp"
+	       	android:textColor="@color/white"
+	       	android:textStyle="bold"
+	        android:text="1" />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:id="@+id/star_fram"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+          android:layout_marginRight="10dp">
+        <ImageButton
+            android:id="@+id/btn_bar_add_coins"
+           android:layout_marginRight="11dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/star_back"
+            android:onClick="showPopup"/>
+         <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/game_coin_icon" 
+            />
+     
+        <TextView
+            android:id="@+id/txt_coin_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="top"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text=""
+            android:textSize="18sp"/>
+        
+    </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>
